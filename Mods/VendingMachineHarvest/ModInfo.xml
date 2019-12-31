@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="VenomsLust's Vending Machine Harvesting" />
+    <Description value="Adds various canned goods to the harvesting results from broken vending machines." />
+    <Author value="VenomsLust" />
+    <Version value="1.0" />
+  </ModInfo>
+</xml>

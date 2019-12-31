@@ -1,0 +1,34 @@
+<configs>
+  <!-- Food/Drink quantities based on what would normally be available in a working machine -->
+  <append xpath="/blocks/block[@name='cntVendingMachine2Broken']">
+    <!-- Dukes -->
+    <drop event="Harvest" name="casinoCoin" count="1,100" prob="0.5" tag="salvageHarvest"/>
+
+    <!-- Canned Food -->
+    <drop event="Harvest" name="foodCanBeef"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanCatfood" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanChicken" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanChili"   prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanDogfood" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanSham"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanLamb"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanMiso"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanPasta"   prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanPeas"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanSalmon"  prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanSoup"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanStock"   prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanTuna"    prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="foodCanPears"   prob="0.05" tag="salvageHarvest" />
+
+    <!-- Prepared Drink -->
+    <drop event="Harvest" name="drinkJarYuccaJuice"      count="2,8" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkJarBoiledWater"     count="2,8" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkJarGoldenRodTea"    count="2,8" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkJarRedTea"          count="2,8" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkJarCoffee"          count="1,5" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkJarBeer"            count="1,5" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkJarGrainAlcohol"    count="2,4" prob="0.05" tag="salvageHarvest" />
+    <drop event="Harvest" name="drinkYuccaJuiceSmoothie" count="1"   prob="0.05" tag="salvageHarvest" />
+  </append>
+</configs>
